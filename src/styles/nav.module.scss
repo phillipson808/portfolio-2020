@@ -42,9 +42,9 @@
    display: block;
    width: 100vw;
    height: 100vh;
-   opacity: 1;
    background: orange;
    transition: all 1s ease-in-out;
+   transform: translateX(100%);
  }
 
 
@@ -52,7 +52,8 @@
    width: 100vw;
    height: 100vh;
    transition: all 1s ease-in-out;
-   opacity: 0;
+   background: orange;
+   transform: translateX(0%);
  }
 
 }

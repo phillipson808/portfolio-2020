@@ -42,6 +42,7 @@ class Nav extends Component {
       <div className={this.state.isOpen ? styles.show : styles.hide} onClick={() => {this.toggleNav()}}>
       
       </div>
+      <button onClick={this.toggleNav}>Click</button>
     </div>
     )
   }
